@@ -1,0 +1,27 @@
+#quoteBlockContainer {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    row-gap: 35px;
+    padding: 50px 0;
+    /* border: solid red; */
+}
+
+#quoteBlockContainer h1 {
+    text-align: center;
+    width: 80%;
+    font-size: 2.5em;
+    line-height: 1.5em;
+}
+
+@media (prefers-color-scheme: light) {
+    #quoteBlockBackground {
+        background-color: #FFF6F6;
+        height: fit-content;
+    }   
+}
+
+#quoteBlockBackground {
+    height: fit-content;
+}  

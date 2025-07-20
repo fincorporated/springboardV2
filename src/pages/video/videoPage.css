@@ -1,0 +1,13 @@
+iframe {
+    width: 900px;
+    height: 580px;
+    display: block;
+    margin: auto auto;
+}
+
+@media (max-width: 1024px) {
+    iframe {
+        width: 300px;
+        height: 165px;
+    }
+}

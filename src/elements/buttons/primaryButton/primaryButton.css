@@ -1,0 +1,55 @@
+@media (min-width: 600px) {
+    #primaryButton {
+        box-sizing: border-box;
+        background-color: #DA4643;
+        color: white;
+        box-shadow: none;
+        border-style: solid;
+        border-color: #DA4643;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+        cursor: pointer;
+        font-size: medium;
+        transition: 0.5s ease;
+    
+        width: 200px;
+        height: 50px;
+    }    
+
+    #primaryButton:hover {
+        transform: scale(1.1, 1.1);
+        gap: 20px;
+    }
+    
+}
+
+@media (max-width: 600px) {
+    #primaryButton {
+        box-sizing: border-box;
+        background-color: #DA4643;
+        color: white;
+        box-shadow: none;
+        border-style: solid;
+        border-color: #DA4643;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        cursor: pointer;
+        transition: 0.5s ease;
+
+        font-size: small;
+        gap: 5px;
+        width: 100px;
+        height: 25px;
+    } 
+    
+    #primaryButton:active {
+        transform: scale(1.1, 1.1);
+        gap: 8px;
+    }
+
+}
+
