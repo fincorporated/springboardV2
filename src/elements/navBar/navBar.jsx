@@ -1,5 +1,5 @@
 import './navBar.css'
-import SB2DMiniLogo from '/Users/finleymcardle/devprojects/react/springboard 2.0/springboard/src/elements/navBar/SB2DMiniLogo.png'
+import SB2DMiniLogo from '/src/assets/SB2DMiniLogo.png'
 
 export default function NavBar() { 
     return (

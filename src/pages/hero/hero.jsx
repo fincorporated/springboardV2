@@ -1,5 +1,5 @@
-import sb2dBlack from '/Users/finleymcardle/devprojects/react/springboard 2.0/springboard/src/assets/sb2dbasicblack.png';
-import sb2dWhite from '/Users/finleymcardle/devprojects/react/springboard 2.0/springboard/src/assets/sb2dwhite.png';
+import sb2dBlack from '/src/assets/sb2dbasicblack.png';
+import sb2dWhite from '/src/assets/sb2dwhite.png';
 import './hero.css'
 import PrimaryButton from '../../elements/buttons/primaryButton/primaryButton';
 import SecondaryButton from '../../elements/buttons/secondaryButton/secondaryButton';
