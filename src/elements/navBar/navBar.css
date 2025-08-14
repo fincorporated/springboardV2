@@ -11,6 +11,22 @@
 
 }
 
+#navBar #primaryButton {
+    height: 40px;
+    width: 140px;
+}
+
+#navBar #secondaryButton {
+    height: 40px;
+    width: 180px; 
+}
+
+#navBarButtons {
+    display: flex;
+    flex-direction: row;
+    column-gap: 8px;
+}
+
 @media (prefers-color-scheme: light) {
     #navBar {
         color: black;
