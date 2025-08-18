@@ -5,7 +5,8 @@ import VideoPage from './pages/video/videoPage'
 import NavBar from './elements/navBar/navBar'
 import AboutPage from './pages/about/about'
 import TestimonyPage from './pages/testimonials/testimonials';
-import QuoteBlock from './pages/quoteBlock/quoteBlock'
+import QuoteBlock from './pages/quoteBlock/quoteBlock';
+import WhatToExpect from './pages/whatToExpect/whatToExpect'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -19,6 +20,7 @@ function App() {
         <QuoteBlock />
         <AboutPage />    
         <TestimonyPage />
+        <WhatToExpect />
       </div>
 
     </>

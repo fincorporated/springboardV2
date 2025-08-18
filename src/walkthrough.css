@@ -1,0 +1,14 @@
+#walkthrough {
+    height: 90vh;
+    width: 95vw;
+    display: flex;
+    flex-direction: column;
+    place-content: center;
+    /* border: solid red; */
+    margin: 0 2vw;
+}
+
+#text {
+    /* border: green dotted; */
+    text-align: center;
+}
