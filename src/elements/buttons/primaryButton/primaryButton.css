@@ -19,10 +19,15 @@
     }    
 
     #primaryButton:hover {
-        transform: scale(1.1, 1.1);
+
         gap: 20px;
     }
     
+}
+
+a#primaryButton {
+    font-weight: 550;
+    font-size: 1.1em;
 }
 
 @media (max-width: 600px) {

@@ -6,7 +6,10 @@ import NavBar from './elements/navBar/navBar'
 import AboutPage from './pages/about/about'
 import TestimonyPage from './pages/testimonials/testimonials';
 import QuoteBlock from './pages/quoteBlock/quoteBlock';
-import WhatToExpect from './pages/whatToExpect/whatToExpect'
+import WhatToExpect from './pages/whatToExpect/whatToExpect';
+import Apply from './pages/apply/apply';
+import Donate from './pages/donate/donate';
+import FAQ from './pages/faq/faq'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -21,6 +24,9 @@ function App() {
         <AboutPage />    
         <TestimonyPage />
         <WhatToExpect />
+        <Apply />
+        <Donate/>
+        <FAQ />
       </div>
 
     </>

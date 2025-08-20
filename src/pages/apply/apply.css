@@ -1,0 +1,14 @@
+#apply {
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    row-gap: 30px;
+    padding: 50px 0;
+}
+
+@media (prefers-color-scheme: light) {
+    #applyBackground {
+        background-color: #FFF6F6;
+        height: fit-content;
+    }   
+}

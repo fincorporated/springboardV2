@@ -1,0 +1,26 @@
+.provision {
+    display: flex;
+    flex-direction: column;
+    border: solid  lightgray;
+    place-items: center;
+    row-gap: 10px;
+    padding: 12px 8px;
+    margin: 0 5px;
+    width: 250px;
+}
+
+.provision p {
+    text-align: center;
+}
+
+#provisions {
+    display: flex;
+    flex-direction: row;
+}
+
+#donate {
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    row-gap: 30px;
+}

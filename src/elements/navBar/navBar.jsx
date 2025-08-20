@@ -14,12 +14,12 @@ export default function NavBar() {
     return (
         <div id='navBar'>
             <div id='inner'>
-                <img src={SB2DMiniLogo} alt='SB2D' id='miniLogo'></img>
+                <img src={SB2DMiniLogo} alt='SB2D' id='miniLogo' onClick={() => goToSection('heroBackground')}></img>
                 <ul id='navBarMenu'>
                     <li onClick={() => goToSection('quoteBlockContainer')}>About</li>
                     <a href='http://localhost:5173/walkthrough' target='_blank'><li>What to Expect</li></a> 
-                    <li>Get Involved</li>
-                    <li>FAQ</li>
+                    <li onClick={() => goToSection('applyBackground')}>Get Involved</li>
+                    <li onClick={() => goToSection('faqBackground')}>FAQ</li>
                 </ul>  
                 <div id='navBarButtons'>
                     <SecondaryButton />

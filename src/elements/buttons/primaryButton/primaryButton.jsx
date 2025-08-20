@@ -3,6 +3,6 @@ import { FaArrowRight } from "react-icons/fa";
 
 export default function PrimaryButton() {
    return (
-    <button id='primaryButton'>Apply Now <FaArrowRight /> </button>
+    <a href='https://www.design-action.com/da/springboard-to-design' target='blank' id='primaryButton'>Apply Now <FaArrowRight /> </a>
    ) 
 }
