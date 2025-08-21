@@ -1,0 +1,225 @@
+export const contributorData = [{
+    name: 'Alejo Vietti',
+    title: 'Costume Designer',
+    img: 'alejo.png',
+}, {
+    name: 'Amara McNeil',
+    title: '',
+    img: 'amara.png',
+}, {
+    name: 'Amber Whatley',
+    title: '',
+    img: 'amber.png',
+}, {
+    name: 'Anita Yavich',
+    title: '',
+    img: '',
+}, {
+    name: 'April Hickman',
+    title: '',
+    img: '',
+},{
+    name: 'Celeste Jennings',
+    title: '',
+    img: '',
+}, {
+    name: 'Christopher Vergara',
+    title: '',
+    img: '',
+}, {
+    name: 'Cody Renard Richard',
+    title: '',
+    img: '',
+}, {
+    name: '',
+    title: '',
+    img: '',
+}, {
+    name: '',
+    title: '',
+    img: '',
+}, {
+    name: '',
+    title: '',
+    img: '',
+}, {
+    name: '',
+    title: '',
+    img: '',
+}, {
+    name: '',
+    title: '',
+    img: '',
+}, {
+    name: '',
+    title: '',
+    img: '',
+}, {
+    name: '',
+    title: '',
+    img: '',
+}, {
+    name: '',
+    title: '',
+    img: '',
+}, {
+    name: '',
+    title: '',
+    img: '',
+}, {
+    name: '',
+    title: '',
+    img: '',
+}, {
+    name: '',
+    title: '',
+    img: '',
+}, {
+    name: '',
+    title: '',
+    img: '',
+}, {
+    name: '',
+    title: '',
+    img: '',
+}, {
+    name: '',
+    title: '',
+    img: '',
+}, {
+    name: '',
+    title: '',
+    img: '',
+}, {
+    name: '',
+    title: '',
+    img: '',
+}, {
+    name: '',
+    title: '',
+    img: '',
+}, {
+    name: '',
+    title: '',
+    img: '',
+}, {
+    name: '',
+    title: '',
+    img: '',
+}, {
+    name: '',
+    title: '',
+    img: '',
+}, {
+    name: '',
+    title: '',
+    img: '',
+}, {
+    name: '',
+    title: '',
+    img: '',
+}, {
+    name: '',
+    title: '',
+    img: '',
+}, {
+    name: '',
+    title: '',
+    img: '',
+}, {
+    name: '',
+    title: '',
+    img: '',
+}, {
+    name: '',
+    title: '',
+    img: '',
+}, {
+    name: '',
+    title: '',
+    img: '',
+}, {
+    name: '',
+    title: '',
+    img: '',
+}, {
+    name: '',
+    title: '',
+    img: '',
+}, {
+    name: '',
+    title: '',
+    img: '',
+}, {
+    name: '',
+    title: '',
+    img: '',
+}, {
+    name: '',
+    title: '',
+    img: '',
+}, {
+    name: '',
+    title: '',
+    img: '',
+}, {
+    name: '',
+    title: '',
+    img: '',
+}, {
+    name: '',
+    title: '',
+    img: '',
+}, {
+    name: '',
+    title: '',
+    img: '',
+}, {
+    name: '',
+    title: '',
+    img: '',
+}, {
+    name: '',
+    title: '',
+    img: '',
+}, {
+    name: '',
+    title: '',
+    img: '',
+}, {
+    name: '',
+    title: '',
+    img: '',
+}, {
+    name: '',
+    title: '',
+    img: '',
+}, {
+    name: '',
+    title: '',
+    img: '',
+}, {
+    name: '',
+    title: '',
+    img: '',
+}, {
+    name: '',
+    title: '',
+    img: '',
+}, {
+    name: '',
+    title: '',
+    img: '',
+}, {
+    name: '',
+    title: '',
+    img: '',
+}, {
+    name: '',
+    title: '',
+    img: '',
+}, {
+    name: '',
+    title: '',
+    img: '',
+}]
