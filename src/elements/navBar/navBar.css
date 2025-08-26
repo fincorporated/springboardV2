@@ -16,16 +16,6 @@ a {
     color: black;
 }
 
-#navBar #primaryButton {
-    height: 40px;
-    width: 140px;
-}
-
-#navBar #secondaryButton {
-    height: 40px;
-    width: 180px; 
-}
-
 #navBarButtons {
     display: flex;
     flex-direction: row;
@@ -79,9 +69,6 @@ li:hover::after {
     transform: scaleX(1);
 }
 
-
-
-
 @media (min-width: 768px) {
     li {
         padding-right: 30px; 
@@ -101,18 +88,28 @@ li:hover::after {
         margin-left: 15px;
     }
 
+    #navBar #primaryButton {
+        height: 40px;
+        width: 140px;
+    }
+    
+    #navBar #secondaryButton {
+        height: 40px;
+        width: 100px; 
+    }
+
 }
 
 
 @media (max-width: 768px) {
     li {
         padding-right: 4px;
-        padding-left: 4px;       
+        padding-left: 4px;   
+        font-size: 15px;    
     }
 
     #miniLogo {
-        width: 30px;
-        margin-left: 2px;
+        display: none;
     }
 
     #navBar {
@@ -122,7 +119,24 @@ li:hover::after {
 
     #inner {
         display: flex;
-        place-items: center;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding: 5px;
     }
+
+    #navBar #primaryButton {
+        display: none;
+        font-size: 12px;
+        width: 70px;
+        height: 25px;
+    }
+
+    #navBar #secondaryButton {
+        font-size: 12px;
+        width: 70px;
+        height: 25px;
+    }
+    
 }
 

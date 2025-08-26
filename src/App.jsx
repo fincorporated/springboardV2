@@ -9,7 +9,10 @@ import QuoteBlock from './pages/quoteBlock/quoteBlock';
 import WhatToExpect from './pages/whatToExpect/whatToExpect';
 import Apply from './pages/apply/apply';
 import Donate from './pages/donate/donate';
+import Contributors from './pages/contributors/contributors';
 import FAQ from './pages/faq/faq'
+import Footer from './pages/footer/footer';
+import Contact from './pages/contact/contact'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -21,12 +24,15 @@ function App() {
         <Hero />
         <VideoPage />    
         <QuoteBlock />
-        <AboutPage />    
-        <TestimonyPage />
+        <AboutPage /> 
         <WhatToExpect />
-        <Apply />
+        <Apply />   
+        <TestimonyPage />
         <Donate/>
+        <Contributors />
         <FAQ />
+        <Contact />
+        <Footer />
       </div>
 
     </>

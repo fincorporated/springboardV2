@@ -39,6 +39,7 @@ img#handsOnPhoto {
     width: 75%;
     height: auto;
     padding: 0 40px;
+    font-style: italic;
 }
 
 .quoteText {
@@ -53,7 +54,7 @@ img#handsOnPhoto {
 
     #quotes p {
         font-size: larger;
-        font-weight: 600;
+        
     }
 
     #testimonyContainer {

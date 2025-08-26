@@ -1,92 +1,83 @@
-#wteTextContainer {
-    display: flex;
-    flex-direction: column;
-    place-items: start;
-    row-gap: 30px;
-    width: 50%;
-    /* border: solid blue */
+@media (prefers-color-scheme: light) {
+    #wteBackground {
+        background-color: #FFF6F6;
+        height: fit-content;
+    }   
 }
 
 #wte {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 0;
+}
+
+#wteContainer {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     /* border: dotted green; */
 }
 
-#wteButtonContainer {
-    /* border: solid red; */
-    width: 30%;
+#wteTextContainer {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
+    place-items: start;
+    row-gap: 30px;
+    width: 50%;
+    padding: 30px 0;
+    /* border: solid blue */
 }
 
-#wteButtonContainer a {
+#wteButtonContainer {   
+    display: flex;
+    place-items: center;
+}
+
+#wteButton {
+    box-sizing: border-box;
+    background-color: white;
+    color: #DA4643;
+    box-shadow: none;
+    border-style: solid;
+    border-color: #DA4643;
+    cursor: pointer;
+    transition: 0.5s ease;
+    font-weight: 650;
+    padding: 12px;
     letter-spacing: 0.05em;
+
 }
 
-#wteButtonContainer a:hover {
-    color: white;
-}
-
-
-@media (min-width: 600px) {
-    #wteButtonContainer a {
-        box-sizing: border-box;
-        background-color: white;
-        color: #DA4643;
-        box-shadow: none;
-        border-style: solid;
-        border-color: #DA4643;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        gap: 15px;
-        cursor: pointer;
-        font-size: medium;
-        transition: 0.5s ease;
-        font-weight: 650;
-
-        width: 300px;
-        height: 50px;    
-    }    
-}
-
-
-#wteButtonContainer a:hover {
+#wteButton:hover {
     background-color: #DA4643;
     color: white;
 }
 
-@media (max-width: 600px) {
-    #wteButtonContainer a {
-        box-sizing: border-box;
-        background-color: white;
-        color: #DA4643;
-        box-shadow: none;
-        border-style: solid;
-        border-color: #DA4643;
+@media (max-width: 768px) {
+    #wteContainer {
         display: flex;
-        align-items: center;
-        justify-content: center;
-        
-        cursor: pointer;
-        transition: 0.5s ease;
-        font-weight: 650;
+        flex-direction: column;
+        place-items: center;
+        text-align: center;
+        width: 100%;
+    }
 
+    #wteTextContainer {
+        place-items: center;
+        width: 100%;
+    }
+
+    #wteButton {
         font-size: small;
-        gap: 5px;
-        width: 100px;
-        height: 25px;   
+        width: 220px;
+        height: 30px;
+        padding: 5px;
     }
     
-    #wteButtonContainer a:active {
+    #wteButton:active {
         background-color: #DA4643;
         color: white;
     }
 }
 
-#wte h1, #wte p {
-    text-align: left;
-}

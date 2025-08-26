@@ -68,6 +68,7 @@
         flex-direction: column;
         gap: 55px;
         justify-content: center;
+        padding-top: 55px;
     }
     #logoImg {
         width: 300px;

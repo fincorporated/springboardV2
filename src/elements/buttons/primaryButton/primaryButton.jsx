@@ -2,7 +2,11 @@ import './primaryButton.css'
 import { FaArrowRight } from "react-icons/fa";
 
 export default function PrimaryButton() {
+   function goToApplications() {
+      document.getElementById('applyBackground').scrollIntoView()
+   }
+   
    return (
-    <a href='https://www.design-action.com/da/springboard-to-design' target='blank' id='primaryButton'>Apply Now <FaArrowRight /> </a>
+    <button onClick={goToApplications} id='primaryButton'>Applications<FaArrowRight /> </button>
    ) 
 }

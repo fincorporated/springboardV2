@@ -1,5 +1,7 @@
 import { dayData } from "./data";
 import { useState } from "react";
+import { FaArrowDown } from "react-icons/fa";
+
 
 function Day({name, activities, EOD}) {
     
@@ -28,23 +30,37 @@ function Activity({activities, EOD}) {
 
     let layout;
 
+    const actName = activities[activityIndex].name;
+    const actTime = activities[activityIndex].time;
+    const actDescription = activities[activityIndex].description;
+    const actPhotos = activities[activityIndex].imgURL;
+
     if (activities[activityIndex].numberOfPhotos > 1) {
         layout = (
             <div className="multiPhoto">
-                <h3>{activities[activityIndex].name} </h3>
-                <p>{activities[activityIndex].time} </p>
-                <p>{activities[activityIndex].description}</p>
-                <p>image</p>
-                <p>image</p>
-                <p>image</p>
+                <h3>{actName} </h3>
+                <p>{actTime} </p>
+                <p>{actDescription}</p>
+                <img src={actPhotos[0]}></img>
+                <img src={actPhotos[1]}></img>
+                <img src={actPhotos[2]}></img>
+            </div>
+        )
+    } else if (activities[activityIndex].numberOfPhotos == 1) {
+        layout = (
+            <div className="onePhoto">
+                <h3>{actName} </h3>
+                <p>{actTime} </p>
+                <p>{actDescription}</p>
+                <img src={actPhotos[0]}></img>
             </div>
         )
     } else {
         layout = (
-            <div className="onePhoto">
-                <h3>{activities[activityIndex].name} </h3>
-                <p>{activities[activityIndex].time} </p>
-                <p>image</p>
+            <div className="noPhotos">
+                <h3>{actName} </h3>
+                <p>{actTime} </p>
+                <p>{actDescription}</p>
             </div>
         )
     }
@@ -85,14 +101,14 @@ export default function WholeDay() {
 
     
     return (
-        <>
+        <div id="walkthroughContainer">
             <Day
                 name={dayData[dayIndex].dayNumber}
                 activities={dayData[dayIndex].activities}
                 EOD={dayData[dayIndex].EOD}
             />
 
-            <button onClick={nextDay}>Next</button>
-        </>
+            <button id="nextDayButton" onClick={nextDay}><FaArrowDown/> </button>
+        </div>
     )
 }

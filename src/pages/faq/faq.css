@@ -18,12 +18,12 @@
     display: none;
 }
 
-@media (prefers-color-scheme: light) {
+/* @media (prefers-color-scheme: light) {
     #faqBackground {
         background-color: #FFF6F6;
         height: fit-content;
     }   
-}
+} */
 
 #faq {
     padding: 30px 0;

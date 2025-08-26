@@ -1,0 +1,29 @@
+#footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    justify-self: center;
+}
+
+#footerBackground {
+    background-color: #DA4643;
+}
+
+#miniLogoFooter {
+    width: 100px;
+}
+
+#socialMediaIcons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 10%;
+    font-size: 25px;
+    color: white;
+}
+
+#socialMediaIcons a {
+    color: white;
+}
