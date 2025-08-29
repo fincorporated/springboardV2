@@ -10,7 +10,7 @@ export default function Newsletter() {
       setResult("Submitting....");
       const formData = new FormData(event.target);
   
-      formData.append("access_key", "a3aa693b-1e55-406d-b79e-aec204f63235");
+      formData.append("access_key", "dd666cba-2a27-43f2-bc64-c566c964607a");
   
       const response = await fetch("https://api.web3forms.com/submit", {
         method: "POST",

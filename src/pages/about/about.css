@@ -41,6 +41,11 @@
     text-align: center;
 }
 
+#mainPara a {
+    color: red;
+    text-decoration: underline;
+}
+
 #aboutContainer h1 {
     grid-column: 1 / span 3;
     text-align: center;
