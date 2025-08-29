@@ -5,15 +5,15 @@ export const contributorData = [{
 }, {
     name: 'Alejo Vietti',
     title: 'Costume Designer',
-    img: 'src/pages/contributors/contributorPhotos/alejo.png',
+    img: '/alejo.png',
 }, {
     name: 'Amara McNeil',
     title: 'Lighting Designer',
-    img: 'src/pages/contributors/contributorPhotos/amara.png',
+    img: '/amara.png',
 }, {
     name: 'Amber Whatley',
     title: 'Lighting Designer',
-    img: 'src/pages/contributors/contributorPhotos/amber.png',
+    img: '/amber.png',
 }, {
     name: 'Amelia Way',
     title: 'Sound Designer',
