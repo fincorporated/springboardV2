@@ -1,5 +1,6 @@
 import sb2dBlack from '/src/assets/sb2dbasicblack.png';
 import sb2dWhite from '/src/assets/sb2dwhite.png';
+import GroupPhoto from './2025GroupPhoto.jpg';
 import './hero.css'
 import PrimaryButton from '../../elements/buttons/primaryButton/primaryButton';
 import SecondaryButton from '../../elements/buttons/secondaryButton/secondaryButton';
@@ -20,7 +21,7 @@ export default function Hero() {
                     </div>
                 
                     <div id='logo'>
-                        <img id='heroImg' src='src/pages/hero/2025GroupPhoto.jpg' ></img>
+                        <img id='heroImg' src={GroupPhoto} ></img>
                         <p>Group photo of the SB2D 2025 cohort. Photo by Rebecca J Michelson.</p>                                   
                     </div>
                 </div>

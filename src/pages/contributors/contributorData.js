@@ -1,7 +1,7 @@
 export const contributorData = [{
     name: 'Alejandro Fajardo',
     title: 'Lighting Designer',
-    img: 'src/pages/contributors/contributorPhotos/alejandro.png',
+    img: '/alejandro.png',
 }, {
     name: 'Alejo Vietti',
     title: 'Costume Designer',
