@@ -33,273 +33,273 @@ export const contributorData = [{
 }, {
     name: 'Caite Hevner',
     title: 'Projection Designer',
-    img: 'src/pages/contributors/contributorPhotos/caite.png',
+    img: '/caite.png',
 }, {
     name: 'Celeste Jennings',
     title: 'Costume Designer',
-    img: 'src/pages/contributors/contributorPhotos/celeste.png',
+    img: '/celeste.png',
 }, {
     name: 'Cha See',
     title: 'Lighting Designer',
-    img: 'src/pages/contributors/contributorPhotos/cha.png',
+    img: '/cha.png',
 }, {
     name: 'Christopher Vergara',
     title: 'Costume  Designer',
-    img: 'src/pages/contributors/contributorPhotos/christopher.png',
+    img: '/christopher.png',
 }, {
     name: 'Clifton Taylor',
     title: 'Lighting Designer',
-    img: 'src/pages/contributors/contributorPhotos/clifton.png',
+    img: '/clifton.png',
 }, {
     name: 'Clint Ramos',
     title: 'Set and Costume Designer',
-    img: 'src/pages/contributors/contributorPhotos/clint.png',
+    img: '/clint.png',
 }, {
     name: 'Cody Renard Richard',
     title: 'Stage Manager / Producer',
-    img: 'src/pages/contributors/contributorPhotos/cody.png',
+    img: '/cody.png',
 }, {
     name: 'Dane Laffrey',
     title: 'Scenic Designer',
-    img: 'src/pages/contributors/contributorPhotos/dane.png',
+    img: '/dane.png',
 }, {
     name: 'Daniel Kluger',
     title: 'Sound Designer',
-    img: 'src/pages/contributors/contributorPhotos/daniel.png',
+    img: '/daniel.png',
 }, {
     name: 'David Bengali',
     title: 'Projection Designer',
-    img: 'src/pages/contributors/contributorPhotos/davidBengali.png',
+    img: '/davidBengali.png',
 }, {
     name: 'David Korins',
     title: 'Scenic  Designer',
-    img: 'src/pages/contributors/contributorPhotos/korins.png',
+    img: '/korins.png',
 }, {
     name: 'David Rockwell',
     title: 'Scenic  Designer',
-    img: 'src/pages/contributors/contributorPhotos/davidRockwell.jpg',
+    img: '/davidRockwell.jpg',
 }, {
     name: 'David Zinn',
     title: 'Set and Costume Designer',
-    img: 'src/pages/contributors/contributorPhotos/davidZinn.png',
+    img: '/davidZinn.png',
 }, {
     name: 'Deandra Bromfield',
     title: 'Lighting Designer',
-    img: 'src/pages/contributors/contributorPhotos/deandra.png',
+    img: '/deandra.png',
 }, {
     name: 'Dede Ayite',
     title: 'Costume Designer',
-    img: 'src/pages/contributors/contributorPhotos/dede.png',
+    img: '/dede.png',
 }, {
     name: 'Derek McLane',
     title: 'Set Designer',
-    img: 'src/pages/contributors/contributorPhotos/derek.png',
+    img: '/derek.png',
 }, {
     name: 'Donyale Werle',
     title: 'Scenic Designer',
-    img: 'src/pages/contributors/contributorPhotos/donyale.png',
+    img: '/donyale.png',
 }, {
     name: 'Emi Verhar',
     title: 'Sound Designer',
-    img: 'src/pages/contributors/contributorPhotos/emi.png',
+    img: '/emi.png',
 }, {
     name: 'Eric Winterling',
     title: 'Costume Shop',
-    img: 'src/pages/contributors/contributorPhotos/eric.png',
+    img: '/eric.png',
 }, {
     name: 'Frankie Charles',
     title: 'Education',
-    img: 'src/pages/contributors/contributorPhotos/frankie.png',
+    img: '/frankie.png',
 }, {
     name: 'Gabriel Clausen',
     title: 'Sound Designer',
-    img: 'src/pages/contributors/contributorPhotos/gabriel.png',
+    img: '/gabriel.png',
 }, {
     name: 'Jadyn Buchanan',
     title: 'Lighting Designer',
-    img: 'src/pages/contributors/contributorPhotos/jadyn.png',
+    img: '/jadyn.png',
 }, {
     name: 'Jake DeGroot',
     title: 'Lighting Designer',
-    img: 'src/pages/contributors/contributorPhotos/jake.png',
+    img: '/jake.png',
 }, {
     name: 'Jane Cox',
     title: 'Lighting Designer',
-    img: 'src/pages/contributors/contributorPhotos/jane.png',
+    img: '/jane.png',
 }, {
     name: 'Japhy Weidman',
     title: 'Lighting Designer',
-    img: 'src/pages/contributors/contributorPhotos/japhy.jpg',
+    img: '/japhy.jpg',
 }, {
     name: 'Jeanette Yew',
     title: 'Projection Designer',
-    img: 'src/pages/contributors/contributorPhotos/jeanette.png',
+    img: '/jeanette.png',
 }, {
     name: 'Jess Slaght',
     title: 'Director',
-    img: 'src/pages/contributors/contributorPhotos/jess.png',
+    img: '/jess.png',
 }, {
     name: 'Jocelyn Girigorie',
     title: 'Set Designer',
-    img: 'src/pages/contributors/contributorPhotos/jocelyn.png',
+    img: '/jocelyn.png',
 }, {
     name: 'Justin Ellington',
     title: 'Sound Designer',
-    img: 'src/pages/contributors/contributorPhotos/justinEllington.jpg',
+    img: '/justinEllington.jpg',
 }, {
     name: 'Justin Scribner',
     title: 'Stage Manager',
-    img: 'src/pages/contributors/contributorPhotos/justinScribner.png',
+    img: '/justinScribner.png',
 }, {
     name: 'Justin Townsend',
     title: 'Lighting  Designer',
-    img: 'src/pages/contributors/contributorPhotos/justinTownsend.png',
+    img: '/justinTownsend.png',
 }, {
     name: 'Kathleen Curran',
     title: 'Production Manager',
-    img: 'src/pages/contributors/contributorPhotos/kathleen.png',
+    img: '/kathleen.png',
 }, {
     name: 'Kathy Marshall',
     title: 'Tricorne',
-    img: 'src/pages/contributors/contributorPhotos/katherine.jpg',
+    img: '/katherine.jpg',
 }, {
     name: 'Ken-Matt Martin',
     title: 'Director ',
-    img: 'src/pages/contributors/contributorPhotos/ken-matt.png',
+    img: '/ken-matt.png',
 }, {
     name: 'Kevin Adams',
     title: 'Lighting Designer',
-    img: 'src/pages/contributors/contributorPhotos/kevin.png',
+    img: '/kevin.png',
 }, {
     name: 'Krystal Balleza',
     title: 'Wig/Makeup Designer',
-    img: 'src/pages/contributors/contributorPhotos/krystal.png',
+    img: '/krystal.png',
 }, {
     name: 'Lear Debessonet',
     title: 'Director ',
-    img: 'src/pages/contributors/contributorPhotos/lear.png',
+    img: '/lear.png',
 }, {
     name: 'Leigh Silverman',
     title: 'Director ',
-    img: 'src/pages/contributors/contributorPhotos/leigh.png',
+    img: '/leigh.png',
 }, {
     name: 'Linda Cho',
     title: 'Costume Designer',
-    img: 'src/pages/contributors/contributorPhotos/linda.png',
+    img: '/linda.png',
 }, {
     name: 'Lucy Mackinnon',
     title: 'Projection Designer',
-    img: 'src/pages/contributors/contributorPhotos/lucy.jpg',
+    img: '/lucy.jpg',
 }, {
     name: 'Machine Dazzle',
     title: 'Costume Designer',
-    img: 'src/pages/contributors/contributorPhotos/machine.png',
+    img: '/machine.png',
 }, {
     name: 'Mark Stanley',
     title: 'Lighting Designer',
-    img: 'src/pages/contributors/contributorPhotos/mark.png',
+    img: '/mark.png',
 }, {
     name: 'Mark Wendland',
     title: 'Professor',
-    img: 'src/pages/contributors/contributorPhotos/markWendland.png',
+    img: '/markWendland.png',
 }, {
     name: 'Miguel Urbino',
     title: 'Set and Costume Designer',
-    img: 'src/pages/contributors/contributorPhotos/miguel.png',
+    img: '/miguel.png',
 }, {
     name: 'Mikaal  Sulaiman',
     title: 'Sound Designer',
-    img: 'src/pages/contributors/contributorPhotos/mikaal.jpg',
+    img: '/mikaal.jpg',
 }, {
     name: 'Mimi Lien',
     title: 'Scenic Designer',
-    img: 'src/pages/contributors/contributorPhotos/mimi.png',
+    img: '/mimi.png',
 }, {
     name: 'Natasha Katz',
     title: 'Lighting Designer',
-    img: 'src/pages/contributors/contributorPhotos/natasha.png',
+    img: '/natasha.png',
 }, {
     name: 'Nevin Steinberg',
     title: 'Sound Designer',
-    img: 'src/pages/contributors/contributorPhotos/nevin.png',
+    img: '/nevin.png',
 }, {
     name: "Ni'Kia McDaniel",
     title: 'Hair, Wig, Makeup Designer',
-    img: 'src/pages/contributors/contributorPhotos/nikia.png',
+    img: '/nikia.png',
 }, {
     name: 'Paloma  Young',
     title: 'Costume Designer',
-    img: 'src/pages/contributors/contributorPhotos/paloma.png',
+    img: '/paloma.png',
 }, {
     name: 'Paul Tazewell',
     title: 'Costume Designer',
-    img: 'src/pages/contributors/contributorPhotos/paul.png',
+    img: '/paul.png',
 }, {
     name: 'Peter Nigrini',
     title: 'Projection Designer',
-    img: 'src/pages/contributors/contributorPhotos/peter.jpg',
+    img: '/peter.jpg',
 }, {
     name: 'Qween Jean',
     title: 'Costume Designer',
-    img: 'src/pages/contributors/contributorPhotos/qween.png',
+    img: '/qween.png',
 }, {
     name: 'Rachel Chavkin',
     title: 'Director',
-    img: 'src/pages/contributors/contributorPhotos/rachelChavkin.png',
+    img: '/rachelChavkin.png',
 }, {
     name: 'Rachael Geier',
     title: 'Wig Design',
-    img: 'src/pages/contributors/contributorPhotos/',
+    img: '/',
 }, {
     name: 'Rachel Hauck',
     title: 'Scenic Designer',
-    img: 'src/pages/contributors/contributorPhotos/rachelHauck.jpg',
+    img: '/rachelHauck.jpg',
 }, {
     name: 'Raphael Mishler',
     title: 'Scenic Designer',
-    img: 'src/pages/contributors/contributorPhotos/raphael.png',
+    img: '/raphael.png',
 }, {
     name: "Robert O'Hara",
     title: 'Director',
-    img: 'src/pages/contributors/contributorPhotos/robert.png',
+    img: '/robert.png',
 }, {
     name: 'Saheem Ali',
     title: 'Director',
-    img: 'src/pages/contributors/contributorPhotos/saheem.png',
+    img: '/saheem.png',
 }, {
     name: 'Sam Pinkleton',
     title: 'Director',
-    img: 'src/pages/contributors/contributorPhotos/sam.png',
+    img: '/sam.png',
 }, {
     name: 'Schele Williams',
     title: 'Director',
-    img: 'src/pages/contributors/contributorPhotos/schele.png',
+    img: '/schele.png',
 }, {
     name: 'Shivanna Sooknanan',
     title: 'Costume Designer',
-    img: 'src/pages/contributors/contributorPhotos/shivanna.png',
+    img: '/shivanna.png',
 }, {
     name: 'Sophia Skiles',
     title: 'Educator',
-    img: 'src/pages/contributors/contributorPhotos/sophia.png',
+    img: '/sophia.png',
 }, {
     name: 'Suki Tsujimoto',
     title: 'Hair and Makeup Designer',
-    img: 'src/pages/contributors/contributorPhotos/suki.png',
+    img: '/suki.png',
 }, {
     name: 'Tal Yarden',
     title: 'Projection Designer',
-    img: 'src/pages/contributors/contributorPhotos/tal.png',
+    img: '/tal.png',
 }, {
     name: 'Teresa Williams',
     title: 'Scenic Designer',
-    img: 'src/pages/contributors/contributorPhotos/teresa.png',
+    img: '/teresa.png',
 }, {
     name: 'Whitney White',
     title: 'Director',
-    img: 'src/pages/contributors/contributorPhotos/whitney.png',
+    img: '/whitney.png',
 }, {
     name: 'Yee Eun Nam',
     title: 'Projection Designer',
-    img: 'src/pages/contributors/contributorPhotos/yee.png',
+    img: '/yee.png',
 }]
