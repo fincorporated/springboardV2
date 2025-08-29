@@ -17,19 +17,19 @@ export const contributorData = [{
 }, {
     name: 'Amelia Way',
     title: 'Sound Designer',
-    img: 'src/pages/contributors/contributorPhotos/amelia.png',
+    img: '/amelia.png',
 }, {
     name: 'Anita Yavich',
     title: 'Costume Designer',
-    img: 'src/pages/contributors/contributorPhotos/anita.png',
+    img: '/anita.png',
 }, {
     name: 'Antonia Kogan',
     title: 'Projection Designer',
-    img: 'src/pages/contributors/contributorPhotos/antonia.png',
+    img: '/antonia.png',
 },  {
     name: 'April Hickman',
     title: 'Costume Designer',
-    img: 'src/pages/contributors/contributorPhotos/april.jpeg',
+    img: '/april.jpeg',
 }, {
     name: 'Caite Hevner',
     title: 'Projection Designer',
