@@ -8,7 +8,8 @@ export default function WhatToExpect() {
             <div id='wte' className="page">
                 <h1>Program Details</h1>
                 <div id='wteContainer'>
-                <div className='wteSection'>
+                    <div id="wteTextContainer">
+                        <div className='wteSection'>
                             <h3>WHO</h3>
                             <p>Springboard to Design aims to provide students with access to theatre education they may not otherwise receive. Therefore, no prior experience is required to participate. Applicants with an interest in sewing, fashion, drawing, painting, building, creating, and storytelling are highly encouraged to apply. Students who already have a love for theater but don’t know where they fit in are also encouraged.</p>       
                         </div>
@@ -26,7 +27,9 @@ export default function WhatToExpect() {
                                 <h3>WHERE</h3>
                                 <p>New York City's Midtown Manhattan area.</p>
                             </div>                            
-                        </div>                   
+                        </div>
+
+                    </div>                
                 </div>
 
             </div>

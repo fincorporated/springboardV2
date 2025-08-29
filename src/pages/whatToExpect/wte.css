@@ -1,6 +1,7 @@
+
 #wteBackground {
-    background-color: #FFF6F6;
-    height: fit-content;
+        background-color: #FFF6F6;
+        height: fit-content;
 }
 
 #wte {
@@ -96,7 +97,7 @@
 
     #wteButton {
         font-size: small;
-
+        
         height: 30px;
         padding: 5px;
     }
@@ -106,4 +107,3 @@
         color: white;
     }
 }
-
