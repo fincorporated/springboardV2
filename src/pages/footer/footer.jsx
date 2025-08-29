@@ -13,8 +13,8 @@ export default function Footer() {
                 <div id='socialMediaIcons'>
                     <a href='https://www.instagram.com/springboard2design?igsh=MTV6eDhzeGQ2YzNteg==' target='blank'><FaInstagram /></a>
                     <a href='https://www.facebook.com/share/1CLX9ZP7DV/?mibextid=LQQJ4d' target='blank'><FaFacebook /></a>
-                    
-                    <FaLinkedinIn />
+                    <a href='https://www.linkedin.com/company/springboard-to-design/about/?viewAsMember=true' target='blank'><FaLinkedinIn /></a>
+
                 </div>
             </div>
         </div>

@@ -1,3 +1,8 @@
+#contributorsBackground {
+    background-color: #FFF6F6;
+    height: fit-content;
+} 
+
 #profilesContainer {
     display: flex;
     flex-direction: row;
@@ -38,13 +43,6 @@
     font-size: 30px;
     cursor: pointer;
     color: #DA4643;
-}
-
-@media (prefers-color-scheme: light) {
-    #contributorsBackground {
-        background-color: #FFF6F6;
-        height: fit-content;
-    }   
 }
 
 @media (max-width: 768px) {
