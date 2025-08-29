@@ -8,6 +8,7 @@ export default function TestimonyPage() {
                 <div id="testimonyContainer">
                     <div id="testimonyImg">
                         <img src={HandsOnPhoto} id='handsOnPhoto'></img>
+                        <p>SB2D students visiting Tricorne Inc costume shop. Photo by Rebecca J Michelson.</p>
                     </div>
                     
                     <div id='quotes'>

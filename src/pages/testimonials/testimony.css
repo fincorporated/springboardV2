@@ -1,3 +1,8 @@
+#testimonyBackground {
+    background-color: #FFF6F6;
+    height: fit-content;
+} 
+
 img#handsOnPhoto {
     width: 550px;
 }
@@ -11,11 +16,9 @@ img#handsOnPhoto {
     /* border: solid red; */
 }
 
-@media (prefers-color-scheme: light) {
-    #testimonyBackground {
-        background-color: #FFF6F6;
-        height: fit-content;
-    }   
+#testimonyImg p {
+    font-size: small;
+    justify-self: center;
 }
 
 #quotes {

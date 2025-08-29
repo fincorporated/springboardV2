@@ -20,11 +20,8 @@ export default function Hero() {
                     </div>
                 
                     <div id='logo'>
-                        <picture>
-                            <source media='(prefers-color-scheme: light)' srcSet={sb2dBlack} />
-                            <source media='(prefers-color-scheme: dark)' srcSet={sb2dWhite} />
-                            <img src={sb2dBlack} id='logoImg' alt='Springboard to Design Logo' />
-                        </picture>                     
+                        <img id='heroImg' src='src/pages/hero/2025GroupPhoto.jpg' ></img>
+                        <p>Group photo of the SB2D 2025 cohort. Photo by Rebecca J Michelson.</p>                                   
                     </div>
                 </div>
             </div>            
