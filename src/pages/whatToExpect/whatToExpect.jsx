@@ -11,17 +11,17 @@ export default function WhatToExpect() {
                     <div id="wteTextContainer">
                         <div className='wteSection'>
                             <h3>WHO</h3>
-                            <p>Springboard to Design aims to provide students with access to theatre education they may not otherwise receive. Therefore, no prior experience is required to participate. Applicants with an interest in sewing, fashion, drawing, painting, building, creating, and storytelling are highly encouraged to apply. Students who already have a love for theater but don’t know where they fit in are also encouraged.</p>       
+                            <p>SB2D is for underrepresented high school students, including students who have limited or no access to theatre. Applicants with an interest in sewing, fashion, drawing, painting, building, creating, and storytelling are highly encouraged to apply. </p>       
                         </div>
                         <div className='wteSection'>
                             <h3>WHAT</h3>
-                            <p>The week-long program includes hands-on workshops and mentorship from award-winning artists. Students will explore costume, set, lighting, sound, hair, makeup, and projection design in the heart of New York City. The SB2D program is FREE to all students. Read our FAQs to find out more.</p>
-                            <a id='wteButton' href='http://localhost:5173/walkthrough' target='_blank'>Click here for an Interactive Program Walkthrough</a>
+                            <p>The program includes workshops and mentorship from award-winning artists. Students will explore costume, set, lighting, sound, hair, makeup, and projection design in the heart of New York City. The SB2D program is FREE to all students. Read our FAQs to find out more.</p>
+                            {/* <a id='wteButton' href='http://localhost:5173/walkthrough' target='_blank'>Click here for an Interactive Program Walkthrough</a> */}
                         </div>
                         <div id='whenWhere'>
                             <div className='wteSection'>
                                 <h3>WHEN</h3>
-                                <p>In 2026, the program will take place July 19th-25th</p>
+                                <p>In 2026, the program will take place July 19th-25th.</p>
                             </div>
                             <div className='wteSection'>
                                 <h3>WHERE</h3>

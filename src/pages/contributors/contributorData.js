@@ -103,15 +103,11 @@ export const contributorData = [{
     title: 'Sound Designer',
     img: '/emi.png',
 }, {
-    name: 'Eric Winterling',
-    title: 'Costume Shop',
-    img: '/eric.png',
-}, {
     name: 'Frankie Charles',
-    title: 'Education',
+    title: 'Education Coordinator',
     img: '/frankie.png',
 }, {
-    name: 'Gabriel Clausen',
+    name: 'G. Clausen',
     title: 'Sound Designer',
     img: '/gabriel.png',
 }, {
@@ -160,7 +156,7 @@ export const contributorData = [{
     img: '/kathleen.png',
 }, {
     name: 'Kathy Marshall',
-    title: 'Tricorne',
+    title: 'Tricorne Inc.',
     img: '/katherine.jpg',
 }, {
     name: 'Ken-Matt Martin',
@@ -247,10 +243,6 @@ export const contributorData = [{
     title: 'Director',
     img: '/rachelChavkin.png',
 }, {
-    name: 'Rachael Geier',
-    title: 'Wig Design',
-    img: '/',
-}, {
     name: 'Rachel Hauck',
     title: 'Scenic Designer',
     img: '/rachelHauck.jpg',
@@ -276,11 +268,11 @@ export const contributorData = [{
     img: '/schele.png',
 }, {
     name: 'Shivanna Sooknanan',
-    title: 'Costume Designer',
+    title: 'Scenic and Costume Designer',
     img: '/shivanna.png',
 }, {
     name: 'Sophia Skiles',
-    title: 'Educator',
+    title: 'Actor and Educator',
     img: '/sophia.png',
 }, {
     name: 'Suki Tsujimoto',

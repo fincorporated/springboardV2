@@ -19,13 +19,13 @@ export default function FAQ() {
                         <h3>Am I eligible?</h3>
                         <h2>+</h2>
                     </div>
-                    <p id='answerA' className="questionAnswer">The Design Action Coalition was created to put meaningful effort towards ending racial inequities in North American theater. Design Action designed SB2D as an opportunity for underrepresented students, and students who have limited or no access to theatre. The Springboard to Design program recognizes a wide range of identities as underrepresented in theatre design.</p>                </div>
+                    <p id='answerA' className="questionAnswer">The Design Action Coalition was created to put meaningful effort towards ending racial inequities in North American theater. SB2D was created as an opportunity for underrepresented high school students, including students who have limited or no access to theatre. The Springboard to Design program recognizes a wide range of identities as underrepresented in theatre design.</p>                </div>
                 <div onClick={() => expandAnswer('answerB')} className="question">
                     <div className="questionTitle">
                         <h3>What costs are associated with the program?</h3>
                         <h2>+</h2>
                     </div>
-                    <p id='answerB' className="questionAnswer">Here’s what we cover: <br/> SB2D covers tuition for all students including workshops, show tickets, transportation within the city, and materials. <br/> Students and guardians coming from outside the NYC area are eligible for free housing. SB2D provides students one meal a day during program hours. <br/>Here’s what SB2D students are responsible for: <br/> Students are responsible for their transportation to and from the program, as well as “on your own” meals, noted on the schedule. </p>
+                    <p id='answerB' className="questionAnswer"><span>Here’s what we cover:</span>  <br/> - SB2D covers tuition for all students including workshops, show tickets, transportation within the city, and materials. <br/> - Students and guardians coming from outside the NYC area are eligible for free housing. <br/> - SB2D provides students one meal a day during program hours. <br/> <span>Here’s what SB2D students are responsible for:</span> <br/> - Students are responsible for their transportation to and from the program, as well as “on your own” meals, noted on the schedule. </p>
                 </div>
                 <div onClick={() => expandAnswer('answerC')} className="question">
                     <div className="questionTitle">
@@ -46,7 +46,7 @@ export default function FAQ() {
                         <h3 >When will I hear back if I applied?</h3>
                         <h2>+</h2>
                     </div>
-                    <p id='answerE' className="questionAnswer">Decisions for the 2026 program will be released in April.</p>
+                    <p id='answerE' className="questionAnswer">Decisions for the 2026 program will be released in the spring.</p>
                 </div>
             </div>
         </div>

@@ -15,9 +15,17 @@
     padding: 50px 0;
 }
 
-#logo p {
+#heroImgCaption {
     font-size: small;
     justify-self: center;
+    font-style: italic;
+    font-weight: 650;
+    padding-top: 1em;
+}
+
+#heroImg {
+    /* border: solid #DA4643; */
+    box-shadow: 8px 8px #DA4643;
 }
 
 @media (min-width: 768px) {
@@ -52,7 +60,7 @@
         text-align: start;
     }
     
-    span {
+    .emphasis span {
         font-style: italic;
         display: block;
     }

@@ -38,7 +38,7 @@ export default function Donate() {
                     </div>
                     <div className="method">
                     <a href="https://givebutter.com/Cs4A3U" target="blank"><h2>Donate</h2></a>
-                    <a href="https://givebutter.com/Cs4A3U" target="blank"><p>If you have the means, contributing financially goes a long way in keeping the program free for students. Donations of any size help!</p></a>
+                    <a href="https://givebutter.com/Cs4A3U" target="blank"><p>If you have the means, contributing financially goes a long way in keeping the program free for students.</p></a>
                         <a href="https://givebutter.com/Cs4A3U" target="blank" className="icon">
                             <FaDonate />
                         </a>

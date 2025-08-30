@@ -18,6 +18,11 @@
     display: none;
 }
 
+.questionAnswer span {
+    font-style: normal;
+    line-height: 2em;
+}
+
 /* @media (prefers-color-scheme: light) {
     #faqBackground {
         background-color: #FFF6F6;

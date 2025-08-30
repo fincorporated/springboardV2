@@ -5,43 +5,36 @@
 
 img#handsOnPhoto {
     width: 550px;
+    box-shadow: 8px 8px #DA4643;
+}
+
+#testimonyImgCaption {
+    font-style: italic;
+    font-weight: 650;
+    padding-top: 1em;
+    font-size: small;
+    justify-self: center;
 }
 
 #testimonyContainer {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    column-gap: 75px;
     align-items: center;
 
     /* border: solid red; */
 }
 
-#testimonyImg p {
-    font-size: small;
-    justify-self: center;
-}
-
 #quotes {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    width: 55%;
+    justify-content: space-between
     /* border: solid blue; */
 }
 
-.quoteRow {
-    display: flex;
-    flex-direction: row;
-    align-items: start;
-    height: 175px;
-    /* border: solid green; */
-}
-
 .quote {
-    width: 75%;
-    height: auto;
-    padding: 0 40px;
+
+    padding: 18px 0;
     font-style: italic;
 }
 
@@ -68,8 +61,8 @@ img#handsOnPhoto {
 @media (max-width: 1024px) {
     img#handsOnPhoto {
         width: 280px;
-        margin: 0 auto;
         padding-top: 15px;
+
     }
 
     #testimonyContainer {
@@ -96,12 +89,6 @@ img#handsOnPhoto {
 
     .quoteText {
         text-align: center;
-    }
-
-    .quoteRow {
-        display: flex;
-        flex-direction: row;
-        height: auto;
     }
 
     .quote h2 {

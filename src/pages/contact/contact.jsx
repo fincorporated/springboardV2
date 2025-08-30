@@ -33,7 +33,11 @@ export default function Contact() {
             <div className="page" id="contact">
                 <div id="contactForm">
                     <h1>Contact Us</h1>
-                    <p>Have any questions? Send us a message!</p>                  
+                    <div id="contactUsMessage">
+                      <p>Have a question that can't be answered in our FAQs?</p>  
+                      <p>Send us a message!</p>    
+                    </div>
+                                  
                     <form onSubmit={onSubmit}>
                         <div id="inputs">
                             <input id="contactFormName" type="text" name="name" required placeholder="Name"/>

@@ -16,7 +16,11 @@
     /* border: solid green; */
 }
 
-
+#contactUsMessage {
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+}
 
 #contactForm form {
     display: flex;
