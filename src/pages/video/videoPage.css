@@ -1,4 +1,4 @@
-iframe {
+video {
     width: 900px;
     height: 580px;
     display: block;
@@ -6,7 +6,7 @@ iframe {
 }
 
 @media (max-width: 1024px) {
-    iframe {
+    video {
         width: 300px;
         height: 165px;
     }

@@ -7,9 +7,6 @@ export default function NavBar() {
     function goToSection(section) {
         document.getElementById(section).scrollIntoView();
     }
-
-    const walkthroughURL = 'http://' + window.location.hostname + '/walkthrough'
-    console.log(walkthroughURL)
     
     return (
         <div id='navBar'>

@@ -60,7 +60,7 @@
         text-align: start;
     }
     
-    .emphasis span {
+    span.emphasis  {
         font-style: italic;
         display: block;
     }
@@ -113,7 +113,7 @@
         text-align: center;
     }
 
-    span {
+    span.emphasis {
         font-style: italic;
         display: block;
     }

@@ -1,9 +1,12 @@
 import './videoPage.css'
+import Sizzle from './S2D-LPA-01.mov'
 
 export default function VideoPage() {
     return (
         <div className='page'>
-            <iframe src="https://www.youtube.com/embed/gzQnxLe_JZg?si=uxhTbsGfNCAlFAYV" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+            <video width='900px' height='580px' controls>
+                <source src={Sizzle} type='video/mp4'></source>
+            </video>
         </div>
         
     )
