@@ -38,19 +38,19 @@ img#handsOnPhoto {
     font-style: italic;
 }
 
-.quoteText {
-    text-align: start;
-}
-
 @media (min-width: 768px) {
     #quotes h2 {
         font-size: 35px;
         margin-bottom: 30px;
+        
     }
 
     #quotes p {
-        font-size: larger;
-        
+        font-size: larger;  
+    }
+
+    .quoteText {
+        text-align: start;
     }
 
     #testimonyContainer {
@@ -62,7 +62,7 @@ img#handsOnPhoto {
     img#handsOnPhoto {
         width: 280px;
         padding-top: 15px;
-
+        
     }
 
     #testimonyContainer {
@@ -91,7 +91,9 @@ img#handsOnPhoto {
         text-align: center;
     }
 
-    .quote h2 {
+    #quotes h2 {
         font-size: 1.2em;
+        margin-bottom: 1em;
+
     }
 }

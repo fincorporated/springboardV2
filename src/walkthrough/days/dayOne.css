@@ -1,0 +1,19 @@
+#dayOneMorning {
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+}
+
+#dayOneAfternoon {
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+}
+
+#dayOne .activity {
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    /* border: dotted green; */
+    width: 100%;
+}

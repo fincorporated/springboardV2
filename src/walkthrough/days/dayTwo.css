@@ -1,0 +1,29 @@
+#dayTwoMorning {
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+}
+
+#dayTwoMorningRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#dayTwo h2 {
+    font-size: 1.2em;
+}
+
+#lightingActivity {
+    display: flex;
+    flex-direction: row;
+    column-gap: 15px;
+}
+
+#dayTwoMorning img {
+    max-width: 300px;
+}
+
+#dayTwoMorning .activityText {
+    width: fit-content;
+}

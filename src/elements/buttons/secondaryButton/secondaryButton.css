@@ -31,7 +31,7 @@ a#secondaryButton {
     font-size: 1.1em;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
     #secondaryButton {
         box-sizing: border-box;
         background-color: white;
@@ -45,9 +45,9 @@ a#secondaryButton {
         
         cursor: pointer;
         transition: 0.5s ease;
-        font-weight: 550;
+        font-weight: 500;
 
-        font-size: small;
+        font-size: 0.75em;
         gap: 5px;
         width: 100px;
         height: 25px;   
