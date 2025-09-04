@@ -12,7 +12,7 @@ export default function Hero() {
                 <div className='heroContainer'>
                     <div className='textContent'>
                         <h1>Builders, storytellers, and curious creatives— <span className='emphasis'>you belong here.</span></h1>
-                        <p className='elevatorPitch'>Springboard to Design (SB2D) gives students the chance to dive into the world of theatre design and discover new artistic possibilities—no experience required! With housing available and tuition fully covered, this program is built to remove barriers for the next generation of theatre designers–expanding their sense of community, collaboration, and imagination.</p>
+                        <p className='elevatorPitch'>Springboard to Design (SB2D) gives students the chance to dive into the world of theatre design and discover new artistic possibilities, no experience required! With housing available and tuition fully covered, this program is built to remove barriers for the next generation of theatre designers, expanding their sense of community, collaboration, and imagination.</p>
                         <div id='buttons'>
                             <PrimaryButton />  
                             <SecondaryButton />                         

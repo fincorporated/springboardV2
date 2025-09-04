@@ -19,7 +19,7 @@ export default function FAQ() {
                         <h3>Am I eligible?</h3>
                         <h2>+</h2>
                     </div>
-                    <p id='answerA' className="questionAnswer">The Design Action Coalition was created to put meaningful effort towards ending racial inequities in North American theater. SB2D was created as an opportunity for underrepresented high school students, including students who have limited or no access to theatre. The Springboard to Design program recognizes a wide range of identities as underrepresented in theatre design.</p>                </div>
+                    <p id='answerA' className="questionAnswer">The Design Action Coalition was created to put meaningful effort towards ending racial inequities in North American theater. SB2D was created as an opportunity for underrepresented high school students, including students who have limited or no access to theatre. The Springboard to Design program recognizes a wide range of identities as underrepresented in theatre design. Current high school seniors graduating in the spring of 2026 are eligible. <br/>Eligible international students are welcome to apply.</p></div>
                 <div onClick={() => expandAnswer('answerB')} className="question">
                     <div className="questionTitle">
                         <h3>What costs are associated with the program?</h3>
